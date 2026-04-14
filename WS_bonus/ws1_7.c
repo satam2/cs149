@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(void) {
+   int userNum;
+   int divNum;
+   scanf("%d %d", &userNum, &divNum);
+   printf("%d %d %d", userNum/divNum, userNum/divNum/divNum, userNum/divNum/divNum/divNum);
+}

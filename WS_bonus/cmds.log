@@ -1,0 +1,73 @@
+    1  pwd
+    2  cd ~
+    3  cd OneDrive/Desktop
+    4  cd OneDrive
+    5  cd Desktop/
+    6  ls
+    7  cd "OneDrive - Personal"
+    8  pwd
+    9  cd ~
+   10  cd Desktop/
+   11  cd /mnt/c/Users/hurri/OneDrive/Desktop/
+   12  ls -latr ; mkdir cs 149 ; cd cs149
+   13  date
+   14  pwd
+   15  cd ~
+   16  cd /mnt/c/Users/hurri/OneDrive/Desktop/cs149
+   17  ls -latr ; mkdir wsA ; cd wsA
+   18  ls -latr
+   19  echo $?
+   20  man ps
+   21  ps aux
+   22  top
+   23  wget https://github.com/torvalds/linux/archive/master.zip
+   24  unzip master.zip
+   25  sudo apt install unzip
+   26  unzip master.zip
+   27  cd linux-master
+   28  pwd
+   29  alias l='ls -latr'
+   30  l
+   31  find . -name mem.c
+   32  find . -name mem.c | xargs
+   33  find . -name mem.c | xargs head
+   34  find . -name mem.c | xargs grep 86
+   35  cd ..
+   36  pwd
+   37  pstree
+   38  ps -a -f -x
+   39  ps -a -f -x | more
+   40  top
+   41  man kill
+   42  echo $?
+   43  echo $$
+   44  ls | wc
+   45  ls | sort
+   46  ls | sort | wc
+   47  ls -latr /bin/ >a.out
+   48  cat a.out | more
+   49  strace ls
+   50  sudo apt install strace
+   51  strace ls
+   52  du -sh .
+   53  df -i
+   54  history > worksheetA.log
+   55  head worksheetA.log
+   56  tail worksheetA.log
+   57  cat worksheetA.log
+   58  explorer.exe worksheetA.log
+   59  pwd
+   60  cd ~
+   61  cd /Users/hurri/OneDrive/Desktop
+   62  cd /mnt/c/Users/hurri/OneDrive/Desktop
+   63  ls -latr ; mkdir cs149 ; cd cs149
+   64  git init
+   65  git remote add origin https://github.com/satam2/cs149.git
+   66  git config --global user.email "hurricanesandytam@gmail.com"
+   67  git config --global user.name "sandy"
+   68  mkdir WS_bonus
+   69  cd WS_bonus
+   70  git add .
+   71  wget -O out.pdf https://tinyurl.com/yy94jltt
+   72  ls -latr
+   73  history > cmds.log
